@@ -1,0 +1,75 @@
+/*? Global Stlye for App */
+body{
+
+  background-image: url(../public/img/body.webp);
+  background-size: 70% 100%; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-color: #EDF1F4 !important;
+  
+}
+
+.ders-img {
+  transition: transform 0.5s;
+  border-radius: 10rem;
+  height: 230px;
+  width: 230px;
+  border: 10px solid rgba(211, 211, 211, 0.553);
+
+}
+.ders-img:hover {
+  transform: scale(1.05);
+  border: 2px solid  white;
+  cursor: pointer;
+}
+.dersler{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+h1{
+  color: rgb(232, 174, 27) !important;
+  font-weight: bolder !important;
+  font-size: 5rem !important;
+}
+
+h5{
+  color: rgb(105, 113, 113) !important;
+  font-size: 1.5rem !important;
+}
+
+h6{
+  color: rgb(232, 174, 27) !important;
+  font-size: x-large !important;
+}
+
+.appointments {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 275px;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #165bc9c5 100%);
+  position: relative;
+  box-shadow: 0px 3px 3px rgba(0 0, 0, 0.3);
+}
+
+.consulted {
+  border-left: 1rem solid rgb(18, 32, 189);
+}
+.consulted::after {
+  content: "Tamamlandı";
+  background-color: rgba(189, 18, 18, 0.455);
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0.5rem;
+  transform: translate(-50%, -50%);
+}
