@@ -1,3 +1,3 @@
-# Appointment App
 
-## https://cw-hospital.netlify.app/
+
+## Özel ders veren eğitim kurumlarının kullanabileceği bir randevu projesidir. React ile oluşturulmuştur.
